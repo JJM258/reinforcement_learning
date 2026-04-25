@@ -53,7 +53,7 @@ while playing:
 
     print(f"Score -> Player: {player_score}, Computer: {computer_score}")
 
-    # Update weights based on computer's move
+    # Update weights
     idx = get_index(computer)
 
     if beta == 0:  # computer wins → reward that action
